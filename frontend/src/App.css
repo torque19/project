@@ -1,0 +1,220 @@
+/*.App {
+  text-align: center;
+}
+*/
+.particles{
+  position: absolute;
+  top: 10%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 1; 
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  top:20%;
+  background-color: #0d1117;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Login-Section{
+  position:absolute;
+  top:50%;
+  left:38%;
+  width: 470px;
+  height:450px;
+  background-color:white;
+  border-radius: 10px;
+  z-index: 5;
+}
+.Form{
+  position: absolute;
+  top: 30%;
+  left:20%;
+}
+.Userid{
+  position: absolute;
+  left: 10%;
+  top: 42%;
+  width: 100%;
+  height: 10%;
+}
+.pass{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 10%;
+  top: 58%;
+  width: 100%;
+  height: 10%;
+}
+.pass #cn_pass{
+  width:36%;
+  height:100%;
+  border:2px solid black;
+  margin-left: 6%;
+}
+.custom-select{
+  position: absolute;
+  left: 10%;
+  top: 74%;
+  width: 82%;
+  height: 10%;
+}
+.custom-select .state{
+  width:100%;
+  height:100%;
+}
+.submit{
+  position: absolute;
+  left:11%;
+  top:75%;
+  width:100%;
+  height:10%;
+}
+.Userid #fname{
+  width: 80%;
+  height: 100%;
+  border:2px solid black;
+  
+}
+.pass #pass{
+  width:36%;
+  height:100%;
+  border:2px solid black;
+  
+  
+}
+.submit #submit{
+  width:80%;
+  height:100%;
+  border:2px solid black;
+  background-color:#b00b69;
+  color:white;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.sign_in{
+  position: absolute;
+  left:10%;
+  top:10%;
+}
+.sign_up{
+  position: absolute;
+  left:65%;
+  top:10%;
+}
+.lo1{
+  position: absolute;
+  left:60%;
+}
+.sign{
+  position: absolute;
+  left:10%;
+  width:50px;
+  height:50px;
+  z-index: 5;
+}
+.sign .sign-logo{
+  width:80%;
+  height:100%;
+}
+.check-logo{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left:13%;
+}
+.check-logo .MHA{
+  margin:0%;
+}
+.check-logo .pname{
+  margin: 0%;
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  width: 100%;
+  height: 10%;
+}
+.name #ftname{
+  width: 36%;
+  height: 90%;
+  border:2px solid black;
+  
+}
+.name #ltname{
+  width: 36%;
+  height: 90%;
+  border:2px solid black;
+  margin-left: 6%;
+  
+}
+.Userid1{
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  width: 100%;
+  height: 10%;
+}
+.Userid1 #fname1{
+  width: 80%;
+  height: 100%;
+  border:2px solid black;
+  
+}
+.pass1{
+  position: absolute;
+  left: 10%;
+  top: 47%;
+  width: 100%;
+  height: 10%;
+}
+.pass1 #pass1{
+  width:80%;
+  height:100%;
+  border:2px solid black;
+  
+  
+}
+.submit1{
+  position: absolute;
+  left:38%;
+  top:90%;
+  width:100%;
+  height:15%;
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project.iml" filepath="$PROJECT_DIR$/.idea/modules/project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/project.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/project.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2043901296/project.react-native-community_cameraroll.iml" filepath="$PROJECT_DIR$/.idea/modules/-2043901296/project.react-native-community_cameraroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/393663928/project.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/393663928/project.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1172717960/project.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1172717960/project.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2070080156/project.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-2070080156/project.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1005281313/project.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1005281313/project.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/987317625/project.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/987317625/project.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1915084062/project.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1915084062/project.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-219537165/project.react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/-219537165/project.react-native-video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2143033951/project.rn-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/-2143033951/project.rn-fetch-blob.iml" />
+    </modules>
+  </component>
+</project>

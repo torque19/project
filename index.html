@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="src/Normal_entry.css">
+  <title>Face Recognition-MHA</title>
+  <style>
+    body {
+      margin:0%;
+    height: auto;
+    background-color: #0d1117;
+    }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0
+    }
+    
+
+.navigation_menu{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+}
+
+.home{
+    
+    text-decoration: none;
+}
+.home #back{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+.home1{
+    padding:15px;
+}
+.home1 #profile{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+.Logout{
+    padding:15px;
+    text-decoration: none;
+}
+.Logout #signout{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+.sign{
+  position: absolute;
+  left:10%;
+  width:50px;
+  height:50px;
+}
+.sign .sign-logo{
+  width:80%;
+  height:100%;
+}
+.check-logo{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left:13%;
+}
+.check-logo .MHA{
+  margin:0%;
+}
+.check-logo .pname{
+  margin: 0%;
+}
+  </style>
+</head>
+<body>
+  <div class = "main">
+    <div class = "navigation_menu">
+        <div class = "sign">
+          <img src="/frontend/src/pngwing.com.png" class = "sign-logo" alt = "sign"/>
+        </div>
+        <div class = "check-logo">
+          <h6 class="MHA">Ministry of Home Affairs</h6> 
+          <h2 class = "pname">Central Criminal Record Database</h2>
+        </div>
+        <div class = "home">
+            <h2 id = "back">Central Bio-Facial Investigation Framework</h2>
+        </div>
+    </div>
+    </div>
+  <input type="file" id="imageUpload">
+</body>
+</html>

@@ -1,0 +1,302 @@
+.main{
+    margin:0%;
+    height: auto;
+    background-color: #0d1117;
+}
+.navigation_menu{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+}
+
+.home{
+    padding:15px;
+    text-decoration: none;
+}
+.home #back{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+.home1{
+    padding:15px;
+}
+.home1 #profile{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+.Logout{
+    padding:15px;
+    text-decoration: none;
+}
+.Logout #signout{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+
+.side_section{
+  position: absolute;
+  left: 3%;
+  width: 15%;
+  height: 82vh;
+  background-color: #3d4145;
+  top: 73px;
+}
+.right_section{
+    position:absolute;
+    top:72.5px;
+    left:19%;
+    width:78%;
+    height: 84vh;
+    background-color:#3d4145;
+    overflow: scroll;
+}
+
+.footer{
+    position: absolute;
+    width:100%;
+    height:6%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    bottom:0%;
+}
+
+.photo{
+    height:35%;
+    background-color: "blue";
+    margin-bottom: 10%;
+}
+
+
+.fir{
+    width:99%;
+    height:5vh;
+    margin-top:20px;
+}
+.ac{
+    width:100%;
+    height:5vh;
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:20px;
+}
+.ci{
+    width:100%;
+    height:5vh;
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:20px;
+}
+.cd{
+    width:100%;
+    height:5vh;
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:20px;
+}
+.sp{
+  width:100%;
+  height:5vh;
+  background-color: tomato;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:20px;
+}
+.Add-cases{
+    position:absolute;
+    top:7%;
+    left:5%;
+    width: 1350px;
+    height:725px;
+    background-color:white;
+    border-radius: 10px;
+  }
+  
+  .Form{
+    position: absolute;
+    top: 30%;
+    left:20%;
+  }
+  .Caseid{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 100%;
+    height: 12%;
+    display:flex;
+    flex-direction: row;
+  }
+  .Caseid #caseno{
+    width: 20%;
+    height: 50%;
+    margin-right: 5%;
+    border:2px solid black;
+    
+  }
+  .Caseid #prisionerno{
+    width: 20%;
+    height: 50%;
+    border:2px solid black;
+    
+  }
+  .name{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+  }
+  .name #suname{
+    width: 20%;
+    height: 50%;
+    margin-right: 5%;
+    border:2px solid black;
+  }
+  .name #fnames{
+    width: 20%;
+    height: 50%;
+    margin-right: 5%;
+    border:2px solid black;
+  }
+  .address{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 100%;
+    height: 12%;
+    display:flex;
+    flex-direction: row;
+  }
+  .address #s1{
+    width: 20%;
+    height: 50%;
+    margin-right: 5%;
+    border:2px solid black;
+    
+  }
+ .address #s2{
+    width: 20%;
+    height: 50%;
+    margin-right: 5%;
+    border:2px solid black;
+    
+  }
+  .address #pincode{
+    width: 20%;
+    height: 50%;
+    border:2px solid black;
+    
+  }
+  .cs{
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+  }
+  .cs #cou{
+    width: 20%;
+    height: 50%;
+    margin-right: 5%;
+    border:2px solid black;
+  }
+  .cs #st{
+    width: 20%;
+    height: 50%;
+    margin-right: 5%;
+    border:2px solid black;
+  }
+  .add-note{
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+  }
+  .add-note #detail{
+    width: 50%;
+    height: 50%;
+    margin-right: 5%;
+    border:2px solid black;
+  }
+  .submit{
+    position: absolute;
+    left:40%;
+    top:90%;
+    width:20%;
+    height:7%;
+  }
+  .submit #submit{
+    width:80%;
+    height:100%;
+    border:2px solid black;
+    background-color:blue;
+    color:white;
+    font-size: medium;
+    font-weight: bold;
+  }
+  #submit-case{
+    position: absolute;
+    top:10%;
+    left:24%;
+    width:10%;
+    height:40%;
+    border:2px solid black;
+    background-color:blue;
+    color:white;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  
+  .details{
+    width:50%;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    top:30%;
+    left:20%;
+  }
+  .cancel{
+    position: absolute;
+    top:1%;
+    right:1%;
+    border:none;
+  }
+  .body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+  }
+
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  
